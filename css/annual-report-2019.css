@@ -51,10 +51,6 @@ body {
     transition: all .3s ease-out;
   }
 
-  nav ul li a:hover, nav ul li a:visited:hover {
-    color: #fff;
-  }
-
   /*
  * The Typekit service used to deliver this font or fonts for use on websites
  * is provided by Adobe and is subject to these Terms of Use
@@ -157,6 +153,30 @@ font-display:auto;font-style:italic;font-weight:600;font-stretch:normal;
 .tk-myriad-pro-condensed { font-family: "myriad-pro-condensed",sans-serif; }
 .tk-myriad-pro { font-family: "myriad-pro",sans-serif; }
 
+
+/* header logo */
+
+header#header {
+    border-bottom: solid 10px #ff5c39 !important;
+    background: #fff;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
+    word-wrap: break-word;
+  }
+
+img.header__logo-image {
+    width: 15em;
+    margin: 1em 3em;
+}
+
+@media (max-width: 450px) {
+    img.header__logo-image {
+        width: 70%;
+        margin: 1em 3em;
+    }
+
+}
 
 /* videowrapper */
 
@@ -313,10 +333,7 @@ nav ul li a:hover,
    border-bottom: 5px solid #155092;
 }
 
-nav ul li a:hover, nav ul li a:visited:hover {
-   /* background: aliceblue;*/
-    color: #fff;
-}
+
 nav ul li a:not(:only-child):after, nav ul li a:visited:not(:only-child):after {
     padding-left: 4px;
     content: ' ▾';
