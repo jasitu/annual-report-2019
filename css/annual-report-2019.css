@@ -41,6 +41,20 @@ body {
     line-height: 1.4;
   }
 
+  strong, b {
+    font-weight: 600;
+  }
+
+  #content article a:hover, #content article a:focus {
+    color: #444;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+  }
+
+  nav ul li a:hover, nav ul li a:visited:hover {
+    color: #fff;
+  }
+
   /*
  * The Typekit service used to deliver this font or fonts for use on websites
  * is provided by Adobe and is subject to these Terms of Use
