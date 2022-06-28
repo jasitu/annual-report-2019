@@ -1044,6 +1044,7 @@ h2.support-border:after {
 .separator {
     padding-top: 65px;
     background-size: 790px !important;
+    image-rendering: -moz-crisp-edges;
 }
 
 .amanda-row {
@@ -1092,6 +1093,7 @@ h2.js-expandmore button {
     margin: 0 auto;
     border: unset;
     margin-bottom: 25px;
+    cursor: pointer;
 }
 
 h2.js-expandmore button:hover {
