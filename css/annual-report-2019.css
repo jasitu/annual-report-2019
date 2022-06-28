@@ -45,7 +45,14 @@ body {
     font-weight: 600;
   }
 
-  #content article a:hover, #content article a:focus {
+
+ a {
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    text-decoration: underline;
+    }
+
+a:hover, article a:focus {
     color: #444;
     -webkit-transition: all .3s ease-out;
     transition: all .3s ease-out;
@@ -475,6 +482,24 @@ nav ul li ul li a {
 }
 
 /* sticky nav bar */
+ 
+ /* Page content */
+ .content {
+   padding: 16px;
+ }
+ 
+ /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+ .sticky {
+   position: fixed;
+   top: 0;
+   width: 100%;
+   box-shadow: -5px 0px 30px 10px #373737 !important;
+ }
+ 
+ /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+ .sticky + .content {
+   padding-top: 60px;
+ } 
 
 body {
     padding-top: 0 !important;
