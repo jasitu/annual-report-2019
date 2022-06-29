@@ -228,13 +228,13 @@ img.header__logo-image {
     background: white;
 }
 
-.navigation.stickynav-active {
+.navigation.stickynav.sticky {
     box-shadow: -5px 0px 30px 10px #373737 !important;
 }
 
 @media (max-width:480px) {
    .navigation {
-       position: fixed;
+        position: fixed;
        top: 0;
        z-index: 1000;
        width: 100%;
@@ -242,6 +242,10 @@ img.header__logo-image {
        padding-right: 0;
        margin-left: 0;
        margin-right: 0;
+   }
+
+   .nav {
+    box-shadow: -5px 0px 30px 10px #373737 !important;
    }
    
    #page {
@@ -450,6 +454,8 @@ nav ul li ul li a {
     top: 22px;
     cursor: pointer;
     padding: 10px 35px 16px 0px;
+    background: unset;
+    border: none;
 }
 .nav-toggle span, .nav-toggle span:before, .nav-toggle span:after {
     cursor: pointer;
@@ -493,7 +499,7 @@ nav ul li ul li a {
    position: fixed;
    top: 0;
    width: 100%;
-   box-shadow: -5px 0px 30px 10px #373737 !important;
+   
  }
  
  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
