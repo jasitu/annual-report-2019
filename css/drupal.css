@@ -184,3 +184,21 @@ img.header__logo-image {
     }
 
 }
+
+/* videowrapper */
+
+.videowrapper {
+  width: 100%;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  margin-bottom: 1.1em;
+}
+
+.videowrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
