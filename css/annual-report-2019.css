@@ -1,21 +1,3 @@
-/* videowrapper */
-
-.videowrapper {
-    width: 100%;
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    margin-bottom: 1.1em;
-}
-
-.videowrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
 /* ie fixes */
 
 @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  
@@ -736,27 +718,31 @@ section.ceochair-section {
 
 /* why support h2 border */
 
-h2.support-border {
+.support-border {
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-weight: 600;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    line-height: 1.3;
 }
 
 
-h2.support-border:after {
+.support-border:after {
     content: '';
     border-top: 5px dotted #444;
     margin: 0 20px 0 0;
     flex: 1 0 20px;
 }
 
-h2.support-border:after {
+.support-border:after {
     margin: 0 0 0 20px;
 }
 
-.infobox h2.support-border:after {
+.infobox .support-border:after {
     margin: 0;
 }
 
