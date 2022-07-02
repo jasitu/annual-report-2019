@@ -742,7 +742,7 @@ section.ceochair-section {
     margin: 0 0 0 20px;
 }
 
-section.financial-section h2.support-border:after {
+section.financial-section .support-border:after {
     border-top: 2px dotted #444;
     margin: 13px 10px 0;
 }
@@ -1126,11 +1126,6 @@ section.financial-section .other-contain p:last-child {
 .admin, .fund, .total {
     display: flex;
     align-items: center;
-}
-
-section.financial-section h2.support-border:after {
-    border-top: 2px dotted #444;
-    margin: 13px 10px 0px;
 }
 
 /* pie chart */
