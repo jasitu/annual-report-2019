@@ -1020,7 +1020,7 @@ section.financial-section .img-flex .half2 {
     border: 1px black solid;
 }
 
-section.financial-section .img-flex h2 {
+section.financial-section .img-flex .support-border {
     margin-bottom: 5px;
 }
 
