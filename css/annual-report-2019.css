@@ -742,6 +742,11 @@ section.ceochair-section {
     margin: 0 0 0 20px;
 }
 
+section.financial-section h2.support-border:after {
+    border-top: 2px dotted #444;
+    margin: 13px 10px 0;
+}
+
 .infobox .support-border:after {
     margin: 0;
 }
